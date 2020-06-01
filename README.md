@@ -8,10 +8,10 @@ A web application that takes a ``user's birthday``, calculates the ``day of the 
  > Daniel Malakwen
 
 ## Screenshot.
-<image src="https://github.com/kamauvick/Akan-Names/blob/master/images/shot.png?raw=true" width="1000">
- 
+<image src="https://github.com/dmalakwen/Akan-Name/blob/master/images/shot.png?raw=true" width="800">
+
  ## Setup.
- > ``git clone https://github.com/kamauvick/Akan-Names.git``
+ > ``git clone https://github.com/dmalakwen/Akan-Name.git``
  
  ``extract the file``
  
@@ -46,7 +46,7 @@ A web application that takes a ``user's birthday``, calculates the ``day of the 
 * Saturday 13th 2019 returns a value of -0.449 which causes the application to crash
 
 ## License
-> MIT License &copy 2019 Victor 
+> MIT License &copy 2020 Daniel Malakwen
 
 ## Collaborate
-To collaborate, reach me on [Email](waichigovick@gmail.com)
+To collaborate, reach me on [Email](mdan006@gmail.com)
