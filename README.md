@@ -8,7 +8,7 @@ A web application that takes a ``user's birthday``, calculates the ``day of the 
  > Daniel Malakwen
 
 ## Screenshot.
-<image src="https://github.com/dmalakwen/Akan-Name/blob/master/images/shot.png?raw=true" width="800">
+<image src="https://github.com/dmalakwen/Akan-Name/blob/master/images/shot.png?raw=true" width="1000">
 
  ## Setup.
  > ``git clone https://github.com/dmalakwen/Akan-Name.git``
