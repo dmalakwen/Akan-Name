@@ -1,14 +1,15 @@
 var century, year, month, dayOfMonth, dayOfWeek, day;
 //Get input
 function getInput(){
-  century = parseInt(document.getElementById("century").value);
-  year = parseInt(document.getElementById("year").value);
-  month = parseInt(document.getElementById("month").value);
-  dayOfMonth = parseInt(document.getElementById("monthday").value);
+  
+  year = document.getElementById("year").value;
+  century = findCentury(year);
+  month = document.getElementById("month").value;
+  dayOfMonth = document.getElementById("monthday").value;
 
 
   if(century == ""){
-    alert("Input the correct gender");
+    alert("Input the correct century");
     return false;
   }else if (year == ""){
     alert("Input the correct year");
@@ -21,10 +22,31 @@ function getInput(){
     return false;
   }
 }
+
+//function century
+
+function findCentury(year) {
+    if(year <= 0){
+       century=0;
+    }else if (year <= 100){
+        century=1;
+    }else if (year % 100 == 0){
+        century =year/100;
+    }else{
+        century= parseInt(year/100) + 1;        
+    }
+    return century;
+}
+
 //Calculate func
 function calculateDay(){
     getInput();
-    dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
+	
+	
+	if(parseInt(century)> 0 && parseInt(month) >0 && parseInt(year)> 0 && parseInt(dayOfMonth)> 0){
+    
+	
+	dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
     console.log(dayOfWeek); //Test the calculateDay function
     return (Math.floor(dayOfWeek));
     if (dayOfWeek < 0) {
@@ -33,6 +55,11 @@ function calculateDay(){
     else if (dayOfWeek > 0) {
       return dayOfWeek;
     }
+} else{
+	alert("enter a valid number")
+}
+	
+
 }
 
 //main caller func
@@ -55,7 +82,7 @@ function checkGender(){
   }else if(gen[1].checked == true){
       var gender = "female";
   }else {
-    console.log("pass");//Test the radio buttons
+    alert("gender cannot be empty")//Test the radio buttons
   }
     switch(gender){
         case gender = "male":
