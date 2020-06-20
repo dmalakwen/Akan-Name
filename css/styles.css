@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
 body {
-    background-color: #ec770a;
+    background-color: #6150c1
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: #49567c;
+    background-image: #3458c7;
     box-shadow: 1px 0px 2px #ffffff;
 }
 

@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "onFocusChange",
+    "autoprefixer.formatOnSave": true,
+    "editor.fontSize": 20
+}
