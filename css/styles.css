@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
 body {
-    background-color: #6150c1
+    background-color: #8b9b89
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: #3458c7;
+    background-image: #34c73b;
     box-shadow: 1px 0px 2px #ffffff;
 }
 
@@ -45,9 +45,9 @@ h1 {
 
 .labels {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 25px;
-    color: #6150c1;
+    color: #54c150f6;
 }
 
 .p-text {
@@ -77,8 +77,10 @@ h1 {
 }
 
 #result {
-    margin-top: 30px;
-    color: #000000;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #5dc91f;
+    font-weight: bolder;
     font-size: 22px;
 }
 

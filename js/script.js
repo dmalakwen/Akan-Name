@@ -78,7 +78,7 @@ function getInput() {
 
     } else if (dayOfMonth <= "0") {
 
-        alert("please enter a valid day of month")
+        alert("please enter a valid day of month");
 
     }
 
